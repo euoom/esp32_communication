@@ -1,0 +1,13 @@
+# MicroPython 도구
+esptool>=4.7.0  # MicroPython 펌웨어 업로드용
+mpremote>=1.22.0  # REPL 접속 및 파일 전송용
+
+# 블루투스 통신
+bleak>=0.21.1  # 비동기 BLE 통신
+asyncio>=3.4.3  # 비동기 프로그래밍 지원
+
+# 시리얼 통신
+pyserial>=3.5  # ESP32 시리얼 모니터링
+
+# 유틸리티
+python-dotenv>=1.0.0  # 환경 변수 관리 
